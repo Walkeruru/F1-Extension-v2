@@ -1,0 +1,11 @@
+.App {
+  background-color: #252525;
+  width: 500px;
+}
+@font-face {
+  font-family: f1;
+  src: url("/fonts/Formula1-Regular.ttf");
+}
+* {
+  font-family: f1;
+}

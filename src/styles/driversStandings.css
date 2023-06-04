@@ -1,0 +1,32 @@
+h2 {
+  text-align: center;
+}
+.separador {
+  width: 400px;
+  height: 2px;
+  background-color: white;
+  margin: 1rem 0 1rem 2rem;
+}
+li {
+  padding: 1rem 2rem 0 2rem;
+}
+span {
+  font-weight: bold;
+}
+.driversList {
+  display: flex;
+  flex-direction: column;
+}
+.loading {
+  align-self: center;
+  width: 100px;
+  animation: spin 1000ms infinite ease-in-out;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
